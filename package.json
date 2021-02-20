@@ -73,6 +73,7 @@
     "jest": "^26.6.3",
     "lint-staged": "^10.5.3",
     "make-coverage-badge": "^1.2.0",
+    "nanobench": "^2.1.1",
     "nodemon": "^2.0.2",
     "prettier": "^2.2.1",
     "rollup": "^2.42.1",
@@ -93,7 +94,5 @@
       "yarn fix:format"
     ]
   },
-  "dependencies": {
-    "nanobench": "^2.1.1"
-  }
+  "dependencies": {}
 }
