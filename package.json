@@ -92,5 +92,8 @@
       "yarn fix:lint",
       "yarn fix:format"
     ]
+  },
+  "dependencies": {
+    "nanobench": "^2.1.1"
   }
 }

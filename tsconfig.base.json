@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "lib": [
       "es5",
       "es6",
@@ -20,7 +21,10 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "downlevelIteration": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "paths": {
+      "nanobench": ["types/nanobench"]
+    }
   },
   "include": [
     "./src/**/*",
